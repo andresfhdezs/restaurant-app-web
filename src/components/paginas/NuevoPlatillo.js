@@ -100,7 +100,7 @@ const NuevoPlatillo = () => {
                             <input
                                 id="nombre"
                                 type="text"
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-light focus:outline-none focus:shadow-outline"
+                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                 placeholder="Nombre platillo"
                                 value={formik.values.nombre}
                                 onChange={formik.handleChange}
@@ -118,7 +118,7 @@ const NuevoPlatillo = () => {
                             <input
                                 id="precio"
                                 type="number"
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-light focus:outline-none focus:shadow-outline"
+                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                 placeholder="$1.000"
                                 min="0"
                                 value={formik.values.precio}
@@ -136,7 +136,7 @@ const NuevoPlatillo = () => {
                         <div className="mb-4">
                             <label htmlFor="categoria" className="block text-gray-700 text-sm font-bold mb-2">Categoría</label>
                             <select
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-light focus:outline-none focus:shadow-outline"
+                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                 id="categoria"
                                 name="categoria"
                                 value={formik.values.categoria}
@@ -192,7 +192,7 @@ const NuevoPlatillo = () => {
                             <label htmlFor="descripcion" className="block text-gray-700 text-sm font-bold mb-2">Descripción</label>
                             <textarea
                                 id="descripcion"
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-light focus:outline-none focus:shadow-outline h-40"
+                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-40"
                                 placeholder="Descripción del platillo"
                                 value={formik.values.descripcion}
                                 onChange={formik.handleChange}
