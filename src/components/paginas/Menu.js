@@ -22,7 +22,9 @@ const Menu = () => {
 
         }
         obtenerPlatillos()
-    }, []) // eslint-disable-next-line
+        // eslint-disable-next-line
+    }, [firebase]) 
+        
 
     // Snapshot para consultar la base de datos en tiempo real
     const manejarSnapshot = snapshot => {
